@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20CB76D9E2B3AD22A80B8BA3 /* Pods_FireBaseWithOtpLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF74D15FACE9A127BC83737 /* Pods_FireBaseWithOtpLogin.framework */; };
+		307F8744254BDFDA00195D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F8743254BDFDA00195D84 /* AppDelegate.swift */; };
+		307F8746254BDFDA00195D84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F8745254BDFDA00195D84 /* SceneDelegate.swift */; };
+		307F8748254BDFDB00195D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F8747254BDFDB00195D84 /* ViewController.swift */; };
+		307F874B254BDFDB00195D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307F8749254BDFDB00195D84 /* Main.storyboard */; };
+		307F874D254BE01300195D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307F874C254BE01300195D84 /* Assets.xcassets */; };
+		307F8750254BE01300195D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307F874E254BE01300195D84 /* LaunchScreen.storyboard */; };
+		307F8758254BE30D00195D84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 307F8757254BE30C00195D84 /* GoogleService-Info.plist */; };
+		307F875A254BE7C200195D84 /* LoginSuccessPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F8759254BE7C200195D84 /* LoginSuccessPhoneViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		307F8740254BDFDA00195D84 /* FireBaseWithOtpLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseWithOtpLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		307F8743254BDFDA00195D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307F8745254BDFDA00195D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		307F8747254BDFDB00195D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307F874A254BDFDB00195D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307F874C254BE01300195D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307F874F254BE01300195D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307F8751254BE01300195D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307F8757254BE30C00195D84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		307F8759254BE7C200195D84 /* LoginSuccessPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccessPhoneViewController.swift; sourceTree = "<group>"; };
+		8DF74D15FACE9A127BC83737 /* Pods_FireBaseWithOtpLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseWithOtpLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D1AE0680C19941E0521FD /* Pods-FireBaseWithOtpLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseWithOtpLogin.release.xcconfig"; path = "Target Support Files/Pods-FireBaseWithOtpLogin/Pods-FireBaseWithOtpLogin.release.xcconfig"; sourceTree = "<group>"; };
+		ED9FED560D38750C436D4EC7 /* Pods-FireBaseWithOtpLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseWithOtpLogin.debug.xcconfig"; path = "Target Support Files/Pods-FireBaseWithOtpLogin/Pods-FireBaseWithOtpLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307F873D254BDFDA00195D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CB76D9E2B3AD22A80B8BA3 /* Pods_FireBaseWithOtpLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307F8737254BDFDA00195D84 = {
+			isa = PBXGroup;
+			children = (
+				307F8742254BDFDA00195D84 /* FireBaseWithOtpLogin */,
+				307F8741254BDFDA00195D84 /* Products */,
+				4265A8B46B3B377F5F3721A1 /* Pods */,
+				E9B2F8D676ACBDDF28474DD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		307F8741254BDFDA00195D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307F8740254BDFDA00195D84 /* FireBaseWithOtpLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307F8742254BDFDA00195D84 /* FireBaseWithOtpLogin */ = {
+			isa = PBXGroup;
+			children = (
+				307F8743254BDFDA00195D84 /* AppDelegate.swift */,
+				307F8745254BDFDA00195D84 /* SceneDelegate.swift */,
+				307F8747254BDFDB00195D84 /* ViewController.swift */,
+				307F8759254BE7C200195D84 /* LoginSuccessPhoneViewController.swift */,
+				307F8749254BDFDB00195D84 /* Main.storyboard */,
+				307F874C254BE01300195D84 /* Assets.xcassets */,
+				307F874E254BE01300195D84 /* LaunchScreen.storyboard */,
+				307F8751254BE01300195D84 /* Info.plist */,
+				307F8757254BE30C00195D84 /* GoogleService-Info.plist */,
+			);
+			path = FireBaseWithOtpLogin;
+			sourceTree = "<group>";
+		};
+		4265A8B46B3B377F5F3721A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9FED560D38750C436D4EC7 /* Pods-FireBaseWithOtpLogin.debug.xcconfig */,
+				9F1D1AE0680C19941E0521FD /* Pods-FireBaseWithOtpLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9B2F8D676ACBDDF28474DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF74D15FACE9A127BC83737 /* Pods_FireBaseWithOtpLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307F873F254BDFDA00195D84 /* FireBaseWithOtpLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307F8754254BE01300195D84 /* Build configuration list for PBXNativeTarget "FireBaseWithOtpLogin" */;
+			buildPhases = (
+				7D480A5129A829B6920BCBE1 /* [CP] Check Pods Manifest.lock */,
+				307F873C254BDFDA00195D84 /* Sources */,
+				307F873D254BDFDA00195D84 /* Frameworks */,
+				307F873E254BDFDA00195D84 /* Resources */,
+				E10316D36456BBA772D584D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireBaseWithOtpLogin;
+			productName = FireBaseWithOtpLogin;
+			productReference = 307F8740254BDFDA00195D84 /* FireBaseWithOtpLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		307F8738254BDFDA00195D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = t;
+				TargetAttributes = {
+					307F873F254BDFDA00195D84 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 307F873B254BDFDA00195D84 /* Build configuration list for PBXProject "FireBaseWithOtpLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 307F8737254BDFDA00195D84;
+			productRefGroup = 307F8741254BDFDA00195D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307F873F254BDFDA00195D84 /* FireBaseWithOtpLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307F873E254BDFDA00195D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307F8750254BE01300195D84 /* LaunchScreen.storyboard in Resources */,
+				307F8758254BE30D00195D84 /* GoogleService-Info.plist in Resources */,
+				307F874D254BE01300195D84 /* Assets.xcassets in Resources */,
+				307F874B254BDFDB00195D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D480A5129A829B6920BCBE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBaseWithOtpLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10316D36456BBA772D584D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseWithOtpLogin/Pods-FireBaseWithOtpLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseWithOtpLogin/Pods-FireBaseWithOtpLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireBaseWithOtpLogin/Pods-FireBaseWithOtpLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307F873C254BDFDA00195D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307F8748254BDFDB00195D84 /* ViewController.swift in Sources */,
+				307F8744254BDFDA00195D84 /* AppDelegate.swift in Sources */,
+				307F8746254BDFDA00195D84 /* SceneDelegate.swift in Sources */,
+				307F875A254BE7C200195D84 /* LoginSuccessPhoneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		307F8749254BDFDB00195D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307F874A254BDFDB00195D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		307F874E254BE01300195D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307F874F254BE01300195D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		307F8752254BE01300195D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		307F8753254BE01300195D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		307F8755254BE01300195D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9FED560D38750C436D4EC7 /* Pods-FireBaseWithOtpLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X9432B2B;
+				INFOPLIST_FILE = FireBaseWithOtpLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnil..FireBaseWithOtpLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		307F8756254BE01300195D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1D1AE0680C19941E0521FD /* Pods-FireBaseWithOtpLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X9432B2B;
+				INFOPLIST_FILE = FireBaseWithOtpLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swapnil..FireBaseWithOtpLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307F873B254BDFDA00195D84 /* Build configuration list for PBXProject "FireBaseWithOtpLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307F8752254BE01300195D84 /* Debug */,
+				307F8753254BE01300195D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307F8754254BE01300195D84 /* Build configuration list for PBXNativeTarget "FireBaseWithOtpLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307F8755254BE01300195D84 /* Debug */,
+				307F8756254BE01300195D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 307F8738254BDFDA00195D84 /* Project object */;
+}
